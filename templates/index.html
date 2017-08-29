@@ -7,7 +7,7 @@
 	  <meta name="keywords" content="web Shopping list, affordable web Shopping list.">
   	<meta name="author" content="Sam Mbugua">
     <title>Acme Shopping | About</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
   </head>
   <body>
     <header>
@@ -17,11 +17,11 @@
         </div>
         <nav>
           <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="login.html">LogIn</a></li>
-            <li><a href="signup.html">SigUp</a></li>
+            <li class="current"><a href="/">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="services">Services</a></li>
+            <li><a href="login">LogIn</a></li>
+            <li><a href="signup">SigUp</a></li>
           </ul>
         </nav>
       </div>
@@ -47,17 +47,17 @@
     <section id="boxes">
       <div class="container">
         <div class="box">
-          <img src="./img/market.jpg">
+          <img src="{{ url_for('static',filename='img/market.jpg') }}">
           <h3>Market Shopping </h3>
           <p>Create a shopping list of all the items you need to buy when you are out in the market.</p>
         </div>
         <div class="box">
-          <img src="./img/mall.jpg">
+          <img src="{{ url_for('static',filename='img/mall.jpg') }}">
           <h3>Mall Shopping</h3>
           <p>Create a shopping list of all the items you need to buy when you are out in the mall.</p>
         </div>
         <div class="box">
-          <img src="./img/boutique.jpg">
+          <img src="{{ url_for('static',filename='img/boutique.jpg') }}">
           <h3>Boutique Shopping</h3>
           <p>Create a shopping list of all the items you need to buy when you are out in the mall.</p>
         </div>
