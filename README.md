@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/BillSam/Shopping-List_2.svg?branch=master)](https://travis-ci.org/BillSam/Shopping-List_2)
+[![Coverage Status](https://coveralls.io/repos/github/BillSam/Shopping-List_2/badge.svg)](https://coveralls.io/github/BillSam/Shopping-List_2)
 
 
 SHOPPING LIST WEBSITE
