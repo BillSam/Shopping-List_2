@@ -1,4 +1,4 @@
-https://travis-ci.org/BillSam/Shopping-List_2.svg?branch=master
+[![Build Status](https://travis-ci.org/BillSam/Shopping-List_2.svg?branch=master)](https://travis-ci.org/BillSam/Shopping-List_2)
 
 # TODO: Your gem name
 
